@@ -10,7 +10,6 @@ warnings.filterwarnings("ignore")
 import sklearn
 from sklearn.preprocessing import StandardScaler
 
-from flask_cors import CORS
 
 app = Flask(__name__)
 __model = None
