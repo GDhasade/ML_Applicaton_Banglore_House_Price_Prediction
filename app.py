@@ -62,7 +62,7 @@ def predicts():
         
         response = round(__model.predict([x])[0], 2)
     
-        return render_template('index.html',prediction_text="Predicted: {}k".format(response))
+        return render_template('index.html',prediction_text="Predicted: {} Lakh".format(response))
     
     else:
         return render_template('index.html')
